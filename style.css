@@ -1,0 +1,43 @@
+img{
+  height: 100vh;
+  margin-left: 500px;
+}
+
+body{
+  background: red;
+  margin: 0px;
+  animation: fire 2s infinite ease;
+}
+
+@keyframes fire{
+  0%{
+    background: yellow;
+  }
+  50%{
+    background: orange;
+  }
+  100%{
+    background: red;
+  }
+}
+
+.button{
+  font-size: 50px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 100, 100);
+  background: rgb(255, 100, 100);
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 670px;
+}
+
+.button:hover{
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+  color: rgb(255, 50, 50);
+  background: white;
+  margin-left:690px;
+}
